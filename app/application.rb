@@ -1,7 +1,7 @@
 class Application
  
   def call(env)
-       Time.now.hour.between? ?  ["Good Morning!"] : ["Good Afternoon!"]
+       Time.now.hour >= 12 ?  ["Good Morning!"] : ["Good Afternoon!"]
   end
  
 end
