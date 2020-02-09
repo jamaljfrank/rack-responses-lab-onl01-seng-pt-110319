@@ -7,3 +7,5 @@ class Application
   end
  
 end
+
+run Application.new
