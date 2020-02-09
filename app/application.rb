@@ -1,4 +1,4 @@
-
+require 'rack'
 
 class Application
  
